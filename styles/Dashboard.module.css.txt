@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #0B1F3A;
+}
+
+.map {
+  flex: 2;
+  background-color: #0B1F3A;
+  border-right: 1px solid #4A4A4A;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #1A2740;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+header {
+  color: #AFCBFF;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid #4A4A4A;
+  padding-bottom: 8px;
+}
+
+.alertsList {
+  background-color: #252F4A;
+  padding: 8px 12px;
+  border-radius: 6px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.alertItem {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #4A4A4A;
+}
+
+.alertType {
+  color: #AFCBFF;
+  font-size: 12px;
+}
+
+.alertLocation {
+  font-size: 13px;
+}
+
+.alertSeverity {
+  color: #FF4B4B;
+  font-size: 12px;
+}
